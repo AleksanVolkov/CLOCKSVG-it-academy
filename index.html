@@ -1,31 +1,25 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="./style.css">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>replit</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
 </head>
+
 <body>
-
-
-
-        <div class="box_btn">
-            <label for="input"></label>
-            <input id="width_circ" type="text">
-            <button class="btn" >построить</button>
-        </div>
-
-        <svg id="circle">
-            <line id=mm />
-            <line id=hh />
-            <line id=ss />
-            <text id=hhD  fill=white></text>
-            <text id=mmD   fill=white></text>
-            <text id=ssD  fill=white></text>
-                   
-        </svg>
-        <script src="./script.js"></script>
-
+  
+  <script src="script.js"></script>
+<main>
+   <button onclick="addValue()"> ввод информации о напитке </button>
+   <button onclick="getValueK()"> получение информации о напитке </button>
+   <button onclick="delDrinks()"> удаление информации о напитке </button>
+   <button onclick="allDrinks()"> перечень всех напитков </button>
+  
+</main>
+   
+  
 </body>
+
 </html>
